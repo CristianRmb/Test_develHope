@@ -1,0 +1,123 @@
+@import 'reset.css';
+
+body{
+    display: flex;
+}
+
+.sx{
+    background-color: lightgray;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    background-color: aquamarine;
+    width: 60%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sopra{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.utente{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.img{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+}
+
+.nome{
+    margin-left: 20px;
+    background-color: #fff;
+    width: 80%;
+    height: 40px;
+}
+
+.item{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.sotto{
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.primo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.item1{
+    background-color: #fff;
+    width: 60%;
+    height: 40px;
+}
+
+.quadrato{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.secondo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.item2{
+    background-color: #fff;
+    width: 25%;
+    height: 40px;
+}
+.itemx{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+.item3{
+    background-color: #fff;
+    width: 10%;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.terzo{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px ;
+}
+
+.grande{
+    background-color: rgb(114, 114, 114);
+    grid-column: 1 / 3;
+}
+
+.medio{
+    background-color: #fff;
+}
